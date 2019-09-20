@@ -1,0 +1,111 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-19T06:59:20.692Z",
+        "line": 5,
+        "name": "Successfull login",
+        "description": "",
+        "id": "login;successfull-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1682500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter \"Sam\" and \"abcd123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sam\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"abcd123\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Step.credentials(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 200900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login",
+            "match": {
+              "location": "Step.click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 287700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Home page is displayed",
+            "match": {
+              "location": "Step.home_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-09-19T06:59:20.803Z",
+        "line": 10,
+        "name": "Successfull login",
+        "description": "",
+        "id": "login;successfull-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "Enter Credentials",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40600,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "click on login",
+            "match": {
+              "location": "Step.click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "Home page is not displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:Test/Login.feature",
+    "tags": []
+  }
+]
